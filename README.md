@@ -9,10 +9,17 @@ This is a simple OPENAI chat bot that suggests the following
 - Model = chatgpt 3.5 - Turbo
 
 - Input = City
+- max_token = 100
 
-- Install requirements file
 
 - Add weatherAPI Key and openAI key to .env file
+
+- Install requirements file
+     --pip install -r requirements.txt
+
+To start the codebase please run the following command
+     --uvicorn main:app
+
 
 API Url = http://127.0.0.1:8000/weather/{City}
 
